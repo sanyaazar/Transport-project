@@ -70,9 +70,9 @@ public class Transport implements warTransport{
     //методы
     public void display() {
         System.out.println("Информация о транспорте:\n" +
-                "Скорость: " + this.speed + "\n" +
-                "Цена: " + this.cost + "\n" +
-                "Вместимость: " + this.capacity + "\n" +
+                "Скорость: " + this.speed + " км/ч\n" +
+                "Цена: " + this.cost + " евро\n" +
+                "Вместимость: " + this.capacity + " человек\n" +
                 "Военный? " + (this.isWar ? "Да":"Нет") + "\n");
 
     }
